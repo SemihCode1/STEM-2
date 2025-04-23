@@ -174,7 +174,7 @@ function setupScene() {
       physicsScene.holes.push(new Hole(2.5, 2.8, 0.2));
       physicsScene.holes.push(new Hole(1.5, 2.8, 0.15));
 
-    //ein evenetlistner erstellen für die mouse interaktion
+    //Eventlistener for the click function
       canvas.addEventListener("mousedown", function(e) {
         mouse.down = true;
         mouse.startPos = screenToSim(e.clientX, e.clientY);

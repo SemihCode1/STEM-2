@@ -1,0 +1,26 @@
+body {
+    font-family: verdana; 
+    font-size: 15px;
+    background: grey;
+    color: white;
+}	
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.slider {
+    appearance: none;
+    width: 80px;
+    height: 6px;
+    border-radius: 5px;
+    background: red;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}

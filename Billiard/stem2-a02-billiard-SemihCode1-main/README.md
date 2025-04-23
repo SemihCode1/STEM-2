@@ -40,3 +40,5 @@ In the following, some tasks are listed that need to be implemented in order to 
 ## TODO: Learning protocol
 
 **Here, you should describe how you solved the tasks from above and explain your code changes as well as the observed results. Reflect your decisions and also describe what you learned today.** (max 500 words)
+creating more balls with an array, changing the size and velocity was easy, higher restitution creates high velocities for the balls.
+creating a if function for collision with walls to change the colour of balls, adding a restitution for the wall for more bouncieness, adding holes onto the canvas and making a condition if the balls hit the holes that they get deleted, making and addEventListener for the click interaction with the mouse on the balls which partially works, generating the balls with random colours.
